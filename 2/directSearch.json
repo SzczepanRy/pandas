@@ -1,0 +1,170 @@
+{
+    "periodicFrequencyResult": [
+        {
+            "rollerOrBallPassFrequencyInner": 10.304,
+            "rollerOrBallPassFrequencyOuter": 7.696,
+            "rollerOrBallSpinFrequency": 3.378,
+            "fundamentalTrainFreqInnerRotation": 0.428,
+            "fundamentalTrainFreqOuterRotation": 0.573,
+            "eccentricityOfRotatingMember": 1,
+            "outofRoundOfRotatingMember": 1,
+            "rollerIrregularity": 6.756,
+            "innerRaceIrregularity": 10.3,
+            "outerRaceIrregularity": 7.696,
+            "innerRollerSizeVariations": 0.428,
+            "outerRollerSizeVariations": 0.573,
+            "rollerEndIrregularity": 3.378,
+            "sInnerOuterOrSOuterInner": 1,
+            "sCageOuter": 0.428,
+            "sCageInner": 0.573,
+            "sRollerCage": 3.378,
+            "operatingSpeed": 60,
+            "contactAngle": 0,
+            "dn": 4500,
+            "pdn": 6210,
+            "marketPlaceDescription": "NU215EMAC4",
+            "materialNumber": "000000000190033262"
+        }
+    ],
+    "report": [
+        {
+            "header": {
+                "partNumber": "NU215EMAC4",
+                "bearingType": "CRB - Cylindrical Roller Bearings",
+                "module": "Periodic Frequencies",
+                "reportDateText": "2023\/12\/14",
+                "by": "By",
+                "generatedBy": ""
+            },
+            "data": [
+                {
+                    "sectionName": "Fundamental Frequencies",
+                    "sectionHeading": [
+                        "Parameters",
+                        "Values",
+                        "Units"
+                    ],
+                    "sectionData": [
+                        [
+                            "BPFI-Roller\/Ball Pass Frequency Inner",
+                            "10.304",
+                            "Hz (rev\/sec)"
+                        ],
+                        [
+                            "BPFO-Roller\/Ball Pass Frequency Outer",
+                            "7.696",
+                            "Hz"
+                        ],
+                        [
+                            "BSF-Roller\/Ball Spin Frequency",
+                            "3.378",
+                            "Hz"
+                        ],
+                        [
+                            "FTFI-Fundamental Train Frequency Inner Rotation",
+                            "0.428",
+                            "Hz"
+                        ],
+                        [
+                            "FTFO-Fundamental Train Frequency Outer Rotation",
+                            "0.573",
+                            "Hz"
+                        ]
+                    ]
+                },
+                {
+                    "sectionName": "Frequencies @60 rpm",
+                    "sectionHeading": [
+                        "Parameters",
+                        "Values",
+                        "Units",
+                        "Comments"
+                    ],
+                    "sectionData": [
+                        [
+                            "f0 or f1 - Eccentricity or Out-Of-Round Rotating Member",
+                            "1.000",
+                            "Hz",
+                            "rev\/sec"
+                        ],
+                        [
+                            "f2 - Ball or Roller Irregularity",
+                            "6.756",
+                            "Hz",
+                            "= BSF * (rev\/sec) * 2"
+                        ],
+                        [
+                            "Ball or Roller Spin Frequency",
+                            "3.378",
+                            "Hz",
+                            "= BSF * (rev\/sec)"
+                        ],
+                        [
+                            "f3 - Inner Race Irregularity",
+                            "10.300",
+                            "Hz",
+                            "= BPFI * (rev\/sec)"
+                        ],
+                        [
+                            "f4 - Outer Race Irregularity",
+                            "7.696",
+                            "Hz",
+                            "= BPFO * (rev\/sec)"
+                        ],
+                        [
+                            "f5 - Ball or Roller Size Variations - Rotating Inner",
+                            "0.428",
+                            "Hz",
+                            "= FTFI * (rev\/sec)"
+                        ],
+                        [
+                            "f6 - Ball or Roller Size Variations - Rotating Outer",
+                            "0.573",
+                            "Hz",
+                            "= FTFO * (rev\/sec)"
+                        ]
+                    ]
+                },
+                {
+                    "sectionName": "Bearing Relative Component Speeds",
+                    "sectionHeading": [
+                        "Parameters",
+                        "Values",
+                        "Units"
+                    ],
+                    "sectionData": [
+                        [
+                            "Inner \/ Outer or Outer \/ Inner",
+                            "1",
+                            "rev\/sec"
+                        ],
+                        [
+                            "Cage \/ Outer",
+                            "0.428",
+                            "rev\/sec"
+                        ],
+                        [
+                            "Cage \/ Inner",
+                            "0.573",
+                            "rev\/sec"
+                        ],
+                        [
+                            "Roller \/ Cage or Ball \/ Cage",
+                            "3.378",
+                            "rev\/sec"
+                        ]
+                    ]
+                }
+            ],
+            "comments": "Comments\r\nOther frequencies that may occur include the following harmonics and modulations of fundamentals and harmonic frequencies.\r\ni = harmonic index of the carrier frequency i.e.\r\ni = 1, 2, 3, 4..\r\nj = harmonic index of the modulating frequency i.e.\r\nj = 0, 1, 2, 3..f1 * i\r\nf4 * i\r\nf5 * i\r\nf6 * i\r\nf4 * i +f1 * j or f4 *i - f1 * j\r\nf2 * i +f5 * j or f2 *i - f5 * j\r\nf2 * i +f6 * j or f2 *i - f6 * j\r\n"
+        }
+    ],
+    "header": {
+        "domainIdentifier": null,
+        "errorCount": 0,
+        "informationCount": 0,
+        "messages": [],
+        "trackingInformation": null,
+        "warningCount": 0
+    }
+}
